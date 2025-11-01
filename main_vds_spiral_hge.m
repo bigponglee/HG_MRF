@@ -19,7 +19,7 @@ if ~exist(save_root, 'dir')
 end
 
 para.noisy = 1; %是否添加噪声
-para.noise_level = 0.1; % 噪声水平 SNR 23dB
+para.noise_level = 0.1; % 噪声水平
 para.PD_norm = 116.8877;
 % dictionary matching参数
 para.matching_var = 0.9; % 匹配阈值
